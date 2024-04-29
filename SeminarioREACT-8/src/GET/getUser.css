@@ -1,0 +1,26 @@
+.user-details {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.user-details input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #fff;
+}
+
+.user-details p {
+    color: #fff;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.user-details > div {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,53 @@
+body {
+    color: #fff;
+}
+
+
+.create-user-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .create-user-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .create-user-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  .create-user-form span.error-message {
+    color: rgb(252, 93, 93);
+    text-align: left;
+    display: block;
+  }
+  
+  
+  .create-user-form button[type="submit"] {
+    background-color: #61dafb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .create-user-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .create-user-form > div {
+    margin-bottom: 15px; 
+  }
+  
